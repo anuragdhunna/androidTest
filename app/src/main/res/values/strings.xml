@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyPlay Application</string>
+    <string name="hello">Hello, World!</string>
+    <string name="title_activity_bottom">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="landscape_message">This is Landscape mode fragment</string>
+    <string name="portrait_message">This is Portrait mode fragment></string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/darker_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <QuickContactBadge
+        android:id="@+id/qcontactBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="45dp"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_bright"
+        app:srcCompat="@android:drawable/btn_star" />
+
+    <Button
+        android:id="@+id/button321"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="34dp"
+        android:layout_marginBottom="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="34dp"
+        android:layout_weight="1"
+        android:elevation="12dp"
+        android:padding="56dp"
+        android:text="Button" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_weight="1"
+        android:entries="@string/hello" />
+</LinearLayout>
