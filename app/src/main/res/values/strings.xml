@@ -7,4 +7,15 @@
     <string name="title_notifications">Notifications</string>
     <string name="landscape_message">This is Landscape mode fragment</string>
     <string name="portrait_message">This is Portrait mode fragment></string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="id_label">The ID is</string>
+    <string name="id_value">[id]</string>
+    <string name="content_label">The Content is</string>
+    <string name="content_value">[content]</string>
+    <string name="action_refresh">Refresh</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

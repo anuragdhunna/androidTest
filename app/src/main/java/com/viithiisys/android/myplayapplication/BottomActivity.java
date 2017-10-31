@@ -1,8 +1,10 @@
 package com.viithiisys.android.myplayapplication;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -29,8 +31,9 @@ public class BottomActivity extends AppCompatActivity {
                     selectFragment(item);
                     return true;
                 case R.id.navigation_dashboard:
-                    selectFragment(item);
-                    mTextMessage.setText(R.string.title_dashboard);
+                    Intent intent = new Intent(BottomActivity.this, HomeActivity.class);
+                    startActivity(intent);
+//                    mTextMessage.setText(R.string.title_dashboard);
                     return true;
                 case R.id.navigation_notifications:
                     selectFragment(item);
@@ -69,6 +72,26 @@ public class BottomActivity extends AppCompatActivity {
     }
 
 
+    // Select Acitivity
+    public void selectActivity (MenuItem menuItem) {
+
+        switch (menuItem.getItemId()) {
+            case R.id.navigation_home:
+                // Call Activity
+
+                callActivity(new HomeActivity());
+
+
+
+        }
+    }
+
+    private void callActivity(Activity homeActivity) {
+
+        Intent intent = new Intent(BottomActivity.this, HomeActivity.class);
+        startActivity(intent);
+
+    }
 
     /**
      * Perform action when any item is selected.

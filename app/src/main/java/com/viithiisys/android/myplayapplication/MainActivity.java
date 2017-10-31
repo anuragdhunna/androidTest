@@ -115,4 +115,10 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(MainActivity.this, BottomActivity.class);
         startActivity(myIntent);
     }
+
+    public void apiCallActivity(View view) {
+        // Start BottomActivity.class
+        Intent myIntent = new Intent(MainActivity.this, HomeActivity.class);
+        startActivity(myIntent);
+    }
 }
