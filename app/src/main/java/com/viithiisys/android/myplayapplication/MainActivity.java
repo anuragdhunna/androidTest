@@ -121,4 +121,8 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(MainActivity.this, HomeActivity.class);
         startActivity(myIntent);
     }
+    public void callScrollActivity(View view) {
+        Intent myIntent = new Intent(MainActivity.this, ScrollActivity.class);
+        startActivity(myIntent);
+    }
 }
